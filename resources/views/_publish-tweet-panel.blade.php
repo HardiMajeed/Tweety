@@ -1,5 +1,5 @@
 <div class="border border-blue-400 rounded-lg px-8 py-6 mb-8">
-    <form method="POST" action="/tweets">
+    <form method="POST" action="{{ route('tweet.store') }}">
         @csrf
 
         <textarea
